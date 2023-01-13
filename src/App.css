@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&family=Work+Sans:wght@200;400;700&display=swap');
+
+:root {
+    --primary-color: #F5FCFF;
+    --secondary-color: #5D5FEF;
+    --tertiary-color: #FAFAFA;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    color: black;
+    font-family: "Work Sans", sans-serif;
+}
+
+button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    color: white;
+    background: var(--secondary-color);
+    box-shadow: 1px 2px 3px rgba(70, 118, 251, 0.41);
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+/* To be exported... */
+.navbar-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-inline: 40px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+#logo {
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    font-size: 34px;
+    font-weight: bold;
+    margin: 0;
+}
